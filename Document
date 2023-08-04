@@ -1,1 +1,15 @@
 project report on vul;nerability assessment
+HTML CODE TO PERFORM CLICKJACKING
+<HTML>
+     <head>
+<titlr>Clickjack test page</title>
+</head>
+<body>
+  <p>website is vulnerable to clickjacking</p>
+  <iframe src="http://altoromutual.com/" width="5000" height="3000">
+<form autocomplete="on">
+   user name:<input type="text" name=fname"/>
+</iframe>
+
+</body>
+</html.
